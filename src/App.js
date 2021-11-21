@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import HorizontalScroll from 'react-scroll-horizontal'
+import Landing from './components/Landing/Landing.js';
+import Welcome from './components/Welcome/Welcome.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HorizontalScroll>
+        <Landing/>
+
+        <Welcome/>
+
+        <div className="main bg2">
+          <h1> Team </h1>
+        </div>
+
+        <div className="main bg3">
+          <h1> Sponsors </h1>
+        </div>
+        
+      </HorizontalScroll>
+      
     </div>
   );
 }
 
 export default App;
+
+// Landing />
+// <Welcome />
