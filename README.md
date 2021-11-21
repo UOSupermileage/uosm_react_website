@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# New supermileage Website
+
+Looks/drafts
+https://www.figma.com/file/AOBfYQROD2LlC8edRR8nzV/Untitled?node-id=0%3A1
+Tutorial to learn react
+https://youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
