@@ -7,21 +7,32 @@ import {
     NavBtn,
     NavBtnLink,
 } from './NavbarElements';
+//import Link from '@mui/material/Link';
 import Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 const ScrollLink = Scroll.ScrollLink;
 
 const Navbar = () => {
     return (
-    <nav>
-                <ScrollLink
-                    to="example-destination"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    className='some-class'
-                    activeClass='some-active-class'
-                > Welcome </ScrollLink>
-    </nav>
+    <Nav >
+        <NavMenu>
+            <Link href='/' > 
+                Home
+            </Link >
+            <Link href='/welcome' >
+                Welcome
+            </Link >
+            <Link href='/team' >
+                Team
+            </Link >
+            <Link href='/sponsors' >
+                Sponsors
+            </Link >
+            <Link href='/contact' >
+                Contact
+            </Link >
+        </NavMenu>
+    </Nav>
     );
 };
 
@@ -50,4 +61,14 @@ export default Navbar;
         <NavBtnLink to='/join'>Join Us</NavBtnLink>
     </NavBtn>
             </Nav >
+
+
+            <ScrollLink
+                to="example-destination"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className='some-class'
+                activeClass='some-active-class'
+            > Welcome </ScrollLink>
 */

@@ -6,7 +6,6 @@ import Welcome from '../Welcome/Welcome';
 export default function Extra () {
     return (
         <React.Fragment>
-
             <Element id='example-destination' name='example-destination'>
                 <Welcome/>
             </Element>
