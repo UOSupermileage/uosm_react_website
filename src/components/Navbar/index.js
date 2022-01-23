@@ -1,74 +1,51 @@
 import React from 'react';
-import {
-    Nav,
-    NavLink,
-    Bars,
-    NavMenu,
-    NavBtn,
-    NavBtnLink,
-} from './NavbarElements';
-//import Link from '@mui/material/Link';
-import Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-const ScrollLink = Scroll.ScrollLink;
+import { useRef } from 'react';
+import { Link } from 'react-scroll';
+import Button from '@mui/material/Button';
 
 const Navbar = () => {
-    return (
-    <Nav >
-        <NavMenu>
-            <Link href='/' > 
-                Home
-            </Link >
-            <Link href='/welcome' >
-                Welcome
-            </Link >
-            <Link href='/team' >
-                Team
-            </Link >
-            <Link href='/sponsors' >
-                Sponsors
-            </Link >
-            <Link href='/contact' >
-                Contact
-            </Link >
-        </NavMenu>
-    </Nav>
-    );
-};
+  return (
+    <ul
+      style={{
+        display: 'flex',
+        listStyle: 'none',
+        justifyContent: 'space-around',
+      }}
+    >
+      <Button>
+        {' '}
+        <Link activeClass="active" to="home" spy={true} smooth={true}>
+          Home
+        </Link>
+      </Button>
 
-export default Navbar;
+      <Button>
+        <Link to="welcome" spy={true} smooth={true}>
+          Welcome
+        </Link>{' '}
+      </Button>
 
-/*
-<Nav>
-                <Bars />
-                <NavMenu>
-                    <NavLink to='/' activeStyle>
-                        Home
-                    </NavLink>
-                    
-                    <NavLink to='/team' activeStyle>
-                        Team
-                    </NavLink>
-                    <NavLink to='/sponsors' activeStyle>
-                        Sponsors
-                    </NavLink>
-                    <NavLink to='/contact' activeStyle>
-                        Contact
-                    </NavLink>
+      <Button>
+        {' '}
+        <Link to="team" spy={true} smooth={true}>
+          Team
+        </Link>
+      </Button>
 
-                </NavMenu >
-    <NavBtn>
-        <NavBtnLink to='/join'>Join Us</NavBtnLink>
-    </NavBtn>
-            </Nav >
+      <Button>
+        {' '}
+        <Link to="sponsors" spy={true} smooth={true}>
+          Sponsors
+        </Link>
+      </Button>
+      <Button>
+        {' '}
+        <Link to="contact" spy={true} smooth={true}>
+          Contact
+        </Link>
+      </Button>
+    </ul>
+  )
+}
 
-
-            <ScrollLink
-                to="example-destination"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className='some-class'
-                activeClass='some-active-class'
-            > Welcome </ScrollLink>
-*/
+export default Navbar

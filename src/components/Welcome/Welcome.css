@@ -1,8 +1,8 @@
-.bg1{
+.bg{
   background-color: red;
 }
 
-.main{
+.main {
   width: 100vw;
   height: 100vh;
   display: flex;

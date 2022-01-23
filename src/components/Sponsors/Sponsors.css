@@ -1,5 +1,5 @@
-.bgl {
-  background-color: wheat;
+.bgs {
+  background-color: aqua;
 }
 
 .main {
@@ -7,5 +7,5 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }

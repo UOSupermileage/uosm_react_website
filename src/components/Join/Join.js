@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 function Join() {
-    return (
-        <div className="main bg">
-            <h1> This is the join page</h1>
-        </div>
-    );
+  return (
+    <div className="main bg">
+      <h1> This is the join section</h1>
+    </div>
+  )
 }
 
-export default Join;
+export default Join
