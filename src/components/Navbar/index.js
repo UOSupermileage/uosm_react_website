@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRef } from 'react';
 import { Link } from 'react-scroll';
 import Button from '@mui/material/Button';
 
@@ -8,7 +7,6 @@ const Navbar = () => {
     <ul
       style={{
         display: 'flex',
-        listStyle: 'none',
         justifyContent: 'space-around',
       }}
     >

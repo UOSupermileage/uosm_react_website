@@ -6,26 +6,25 @@ import Team from './components/Team/Team.js'
 import Sponsors from './components/Sponsors/Sponsors.js'
 import Contact from './components/Contact/Contact.js'
 import Join from './components/Join/Join.js'
-import Navbar from './components/Navbar'
-import { useRef } from 'react'
+import Navbar from './components/Navbar';
+import theme from './components/Theme/index.js';
+import { ThemeProvider } from 'styled-components';
 
 function App() {
-  const teamPage = useRef(null)
-
-  const goToTeam = () =>
-    window.scrollTo({ left: teamPage.current.offsetTop, behavior: 'smooth' })
 
   return (
-    <div className="App">
-      <Navbar />
-      
-      <Landing />
-      <Welcome />
-      <Team />
-      <Sponsors />
-      <Contact />
-      <Join />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Navbar />
+        
+        <Landing />
+        <Welcome />
+        <Team />
+        <Sponsors />
+        <Contact />
+        <Join />
+      </div>
+    </ThemeProvider>
   )
 }
 
