@@ -43,7 +43,7 @@ const Navbar = () => {
         </Link>
       </Button>
     </ul>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

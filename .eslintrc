@@ -1,13 +1,23 @@
 {
-    "eslint.workingDirectories": [
-        {
-            "mode": "auto"
-        }
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
     },
-    "eslint.validate": [
-        "javascript"
-    ]
+    "rules": {
+        // "no-unused-vars": 2,
+        // "no-undef": 2,
+        "indent": [
+            "error",
+            2
+        ],
+        "semi": [
+            1,
+            "always"
+        ]
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "parser": "babel-eslint"
 }
