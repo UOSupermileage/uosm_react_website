@@ -8,7 +8,7 @@ import Contact from './components/Contact/Contact.js'
 import Join from './components/Join/Join.js'
 import Navbar from './components/Navbar';
 import theme from './components/Theme/index.js';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from '@mui/material/styles';
 
 function App() {
 
