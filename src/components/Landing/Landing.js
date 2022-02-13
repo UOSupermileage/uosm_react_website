@@ -59,7 +59,7 @@ function Landing() {
         </Button>
       </div>
     </div>
-  )
+  );
 }
 
 export default Landing;

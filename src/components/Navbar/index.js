@@ -43,6 +43,7 @@ const Navbar = () => {
           </Link>
         </Button>
 
+<<<<<<< HEAD
         <Button>
           <Link to="sponsors" spy={true} smooth={true}>
             Sponsors
@@ -57,5 +58,22 @@ const Navbar = () => {
     </ThemeProvider>
   )
 }
+=======
+      <Button>
+        {' '}
+        <Link to="sponsors" spy={true} smooth={true}>
+          Sponsors
+        </Link>
+      </Button>
+      <Button>
+        {' '}
+        <Link to="contact" spy={true} smooth={true}>
+          Contact
+        </Link>
+      </Button>
+    </ul>
+  );
+};
+>>>>>>> master
 
 export default Navbar;

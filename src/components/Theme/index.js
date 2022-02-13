@@ -29,6 +29,11 @@ const theme = createTheme({
             },
         },
     },
+    secondary: purple,
+  },
+  status: {
+    danger: orange[500],
+  },
 });
 
 export default theme;
