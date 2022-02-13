@@ -9,11 +9,11 @@ import Box from '@mui/material/Box';
 function Landing() {
   const handleClick = () =>{
     return;
-  }
+  };
 
   return (
     <div className={styles.main} >
-        {/* TO USE VIDEO LATER
+      {/* TO USE VIDEO LATER
         <div className="video">
           <video
             autoPlay
