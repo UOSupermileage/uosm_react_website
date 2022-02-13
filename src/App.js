@@ -12,10 +12,9 @@ import { ThemeProvider } from '@mui/material/styles';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
+      <div className='App'>
         <Navbar />
         
         <ScrollToTop />
@@ -25,7 +24,7 @@ function App() {
         <Sponsors />
         <Contact />
         <Join />
-      </div> 
+      </div>
     </ThemeProvider>
   );
 }
