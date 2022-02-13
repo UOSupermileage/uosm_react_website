@@ -9,12 +9,15 @@ import Join from './components/Join/Join.js';
 import Navbar from './components/Navbar';
 import theme from './components/Theme/index.js';
 import { ThemeProvider } from '@mui/material/styles';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
         <Navbar />
+
+        <ScrollToTop />
         <Landing />
         <Welcome />
         <Team />
