@@ -10,11 +10,10 @@ const navTheme = createTheme({
       main: '#ec7001',
     },
     secondary: {
-      main: "#231f20"
-    }
+      main: '#231f20',
+    },
   },
 });
-
 
 const Navbar = () => {
   return (
@@ -25,31 +24,31 @@ const Navbar = () => {
           justifyContent: 'space-around',
         }}
       >
-        <Button>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
+        <Button sx={{ fontWeight: '750' }}>
+          <Link activeClass='active' to='home' spy={true} smooth={true}>
             Home
           </Link>
         </Button>
 
-        <Button>
-          <Link to="welcome" spy={true} smooth={true}>
+        <Button sx={{ fontWeight: '750' }}>
+          <Link to='welcome' spy={true} smooth={true}>
             Welcome
           </Link>
         </Button>
 
-        <Button>
-          <Link to="team" spy={true} smooth={true}>
+        <Button sx={{ fontWeight: '750' }}>
+          <Link to='team' spy={true} smooth={true}>
             Team
           </Link>
         </Button>
 
-        <Button>
-          <Link to="sponsors" spy={true} smooth={true}>
+        <Button sx={{ fontWeight: '750' }}>
+          <Link to='sponsors' spy={true} smooth={true}>
             Sponsors
           </Link>
         </Button>
-        <Button>
-          <Link to="contact" spy={true} smooth={true}>
+        <Button sx={{ fontWeight: '750' }}>
+          <Link to='contact' spy={true} smooth={true}>
             Contact
           </Link>
         </Button>
