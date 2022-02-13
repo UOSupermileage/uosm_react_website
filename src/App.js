@@ -16,11 +16,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className='App'>
         <Navbar />
-<<<<<<< HEAD
-=======
         
         <ScrollToTop />
->>>>>>> master
         <Landing />
         <Welcome />
         <Team />
