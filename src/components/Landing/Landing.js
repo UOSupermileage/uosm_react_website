@@ -7,12 +7,12 @@ import { Link } from 'react-scroll';
 import Box from '@mui/material/Box';
 
 function Landing() {
-  const handleClick = () =>{
+  const handleClick = () => {
     return;
   };
 
   return (
-    <div className={styles.main} >
+    <div className={styles.main}>
       {/* TO USE VIDEO LATER
         <div className="video">
           <video
@@ -34,27 +34,31 @@ function Landing() {
           </video>
         </div>
         */}
-      <img 
-        alt="Orange Background" 
-        src={Orange} 
+      <img
+        alt='Orange Background'
+        src={Orange}
         style={{
-          position: "absolute",
-          width: "100%",
-          left: "0%",
-          top: "0%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate (-50%, -50%)",
-          zIndex: "-1",
-        }} 
+          position: 'absolute',
+          width: '100%',
+          left: '0%',
+          top: '0%',
+          height: '100%',
+          objectFit: 'cover',
+          transform: 'translate (-50%, -50%)',
+          zIndex: '-1',
+        }}
       />
       <div className={styles.info}>
-        <Box sx={{ m: "25rem" }} />
-        <Typography variant="h1" color={"#FFFFFF"} > WELCOME TO UO SUPERMILEAGE </Typography>
-        <Typography variant="h3" color={'#FFFFFF'}> The Forefront of Electric Car Racing at uOttawa </Typography>
-        <Button onClick={handleClick}>
-          <Link to="join_us" spy={true} smooth={true}>
-            Join Us
+        <Box sx={{ m: '25rem' }} />
+        <Typography variant='h1' color={'#FFFFFF'}>
+          WELCOME TO UO SUPERMILEAGE
+        </Typography>
+        <Typography variant='h3' color={'#FFFFFF'}>
+          The Forefront of Electric Car Racing at uOttawa
+        </Typography>
+        <Button variant='contained' size='large' onClick={handleClick}>
+          <Link to='join_us' spy={true} smooth={true}>
+            Join now
           </Link>
         </Button>
       </div>

@@ -11,19 +11,17 @@ import theme from './components/Theme/index.js';
 import { ThemeProvider } from '@mui/material/styles';
 
 function App() {
-
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
+      <div className='App'>
         <Navbar />
-        
         <Landing />
         <Welcome />
         <Team />
         <Sponsors />
         <Contact />
         <Join />
-      </div> 
+      </div>
     </ThemeProvider>
   );
 }
