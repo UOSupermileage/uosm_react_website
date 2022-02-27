@@ -5,10 +5,16 @@
 - [Live demo](https://uosm-website-demo.web.app/)
 
 ## Stack
+
 - React.js
 - Material UI
-- Firebase 
+- Firebase
 
+## Notes for Development
+
+- Please make sure you download the [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for VSCode
+
+- Use Node version 16. This can be done by using [Node-Version-Manager](http://nvm.sh/)
 
 ## Available Scripts
 
@@ -26,6 +32,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### `firebase deploy`
 
-*Must have firebase CLI installed with correct permissions*\
+_Must have firebase CLI installed with correct permissions_\
 Deploys the application to the [live demo](https://uosm-website-demo.web.app/) site
-

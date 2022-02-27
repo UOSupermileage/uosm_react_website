@@ -5,10 +5,10 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#ec7001',
+      main: '#ec7001'
     },
     secondary: {
-      main: "#231f20"
+      main: '#231f20'
     }
   },
   components: {
@@ -24,11 +24,11 @@ const theme = createTheme({
           subtitle1: 'h2',
           subtitle2: 'h2',
           body1: 'span',
-          body2: 'span',
-        },
-      },
-    },
-  },
+          body2: 'span'
+        }
+      }
+    }
+  }
 });
 
 export default theme;
