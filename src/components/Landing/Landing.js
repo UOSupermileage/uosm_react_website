@@ -35,7 +35,7 @@ function Landing() {
         </div>
         */}
       <img
-        alt='Orange Background'
+        alt="Orange Background"
         src={Orange}
         style={{
           position: 'absolute',
@@ -45,19 +45,19 @@ function Landing() {
           height: '100%',
           objectFit: 'cover',
           transform: 'translate (-50%, -50%)',
-          zIndex: '-1',
+          zIndex: '-1'
         }}
       />
       <div className={styles.info}>
         <Box sx={{ m: '25rem' }} />
-        <Typography variant='h1' color={'#FFFFFF'}>
+        <Typography variant="h1" color={'#FFFFFF'}>
           WELCOME TO UO SUPERMILEAGE
         </Typography>
-        <Typography variant='h3' color={'#FFFFFF'}>
+        <Typography variant="h3" color={'#FFFFFF'}>
           The Forefront of Electric Car Racing at uOttawa
         </Typography>
-        <Button variant='contained' size='large' onClick={handleClick}>
-          <Link to='join_us' spy={true} smooth={true}>
+        <Button variant="contained" size="large" onClick={handleClick}>
+          <Link to="join_us" spy={true} smooth={true}>
             Join now
           </Link>
         </Button>
