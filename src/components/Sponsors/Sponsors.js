@@ -1,10 +1,11 @@
 import React from 'react';
 import './Sponsors.css';
+import { Typography } from '@mui/material';
 
 function Sponsors() {
   return (
     <div id="sponsors" className="main bgs">
-      <h1> This is the sponsors section</h1>
+      <Typography variant="h1"> This is the sponsors section</Typography>
     </div>
   );
 }
