@@ -46,10 +46,7 @@ function Slideshow(props) {
           <div
             key={idx}
             className={`slideshow-dot${index === idx ? ' active' : ''}`}
-            onClick={() => {
-              console.log('clicked');
-              setIndex(idx);
-            }}
+            onClick={() => setIndex(idx)}
           ></div>
         ))}
       </div>
