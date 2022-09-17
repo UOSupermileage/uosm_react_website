@@ -1,0 +1,35 @@
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 60%;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    white-space: break-spaces;
+    vertical-align: middle;
+  }
+  
+  .slideshow-slider{
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slideshow-dots {
+    text-align: center;
+  }
+  .slideshow-dot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+  }
+
+  .slideshow-dot.active {
+    background-color: #505050;
+  }
