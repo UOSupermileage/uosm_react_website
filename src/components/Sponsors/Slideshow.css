@@ -2,6 +2,7 @@
     margin: 0 auto;
     overflow: hidden;
     max-width: 60%;
+    height: 100%;
   }
   
   .slide {
@@ -15,6 +16,7 @@
   .slideshow-slider{
     white-space: nowrap;
     transition: ease 1000ms;
+    height: 80%;
   }
   
   .slideshow-dots {
