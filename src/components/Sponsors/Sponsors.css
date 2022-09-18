@@ -1,3 +1,48 @@
 .bgs {
   background-color: aqua;
 }
+
+#sponsors{
+  display: block;
+  text-align: center;
+}
+
+.sponsor{
+  max-height: 20vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sponsor-item {
+  max-height: 100%;
+  flex-basis: 100%;
+  margin: 10px
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 30%;
+  max-height: 50%;
+  margin: 0 5px 10px 5px 
+}
+
+.tier1{
+  height: 60%;
+  display: inline-block;
+}
+
+.tier2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+
+.tier2 img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
